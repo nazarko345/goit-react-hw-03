@@ -18,7 +18,7 @@ export default function App() {
     return initualContacts;
   }
 )
-
+ 
   const contactAdd = (newContact) => {
     setContact((prevContacts) => [
       ...prevContacts,

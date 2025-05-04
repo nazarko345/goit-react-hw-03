@@ -37,8 +37,8 @@ export default function App() {
   );
 
   useEffect(() => {
-    localStorage.setItem("contacts", JSON.stringify(filtredContacts));
-  }, [filtredContacts]);
+    localStorage.setItem("contacts", JSON.stringify(contacts));
+  }, [contacts]);
 
   return (
     <div className={css.app}>
